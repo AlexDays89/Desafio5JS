@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista To Do</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="cajatarea">
+        <h1>To Do List</h1>
+        <p>Nueva Tarea</p>
+        <div class="formulario">
+            <input type="text" id="tarea" placeholder="Escribe tu tarea">
+            <button class="button agregar">Agregar</button>
+        </div>
+    </div>
+    <main class="contenedorresumen">
+    <div class="resumen">
+        <p class="total"> Total: <span class="numerototal"></span></p>
+        <p class="realizadas"> Realizadas: <span class="numerorealizadas"></span></p>
+    </div>
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Acciones</th>
+                <th>Estado</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="tablatareas">
+            <!-- <tr>
+                <td>Comprar pan</td>
+                <td>
+                    <button class="button">Eliminar</button>
+                </td>
+            </tr> -->
+        </tbody>
+    </main>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
